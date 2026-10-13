@@ -64,7 +64,7 @@ public class CalculosFinancieros {
                 System.out.println("Por favor, introduzca un número válido.");
                 Scanner.next();
             }
-        }while (opcion !=3);
+        }while (opcion !=8);
         
         Scanner.close();
     }
