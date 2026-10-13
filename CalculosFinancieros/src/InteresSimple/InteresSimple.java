@@ -20,7 +20,7 @@ public class InteresSimple {
         System.out.print("Introduzca el tiempo (en años): ");
         int tiempo = Integer.parseInt(teclado.nextLine());
         
-        System.out.print("Introduzca la tasa de interés: ");
+        System.out.print("Introduzca la tasa de interés (en decimales): ");
         double interes = Double.parseDouble(teclado.nextLine());
         
         double capitalFinal = capitalInicial*(1 + tiempo*interes);
@@ -29,5 +29,7 @@ public class InteresSimple {
         System.out.println("Tiempo: " + tiempo + "años");
         System.out.println("Interés: " + interes);
         System.out.println("Capital Final: " + capitalFinal + " euros.");
+        
+        teclado.close();
     }
 }
