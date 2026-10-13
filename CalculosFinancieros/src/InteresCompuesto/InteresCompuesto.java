@@ -14,11 +14,11 @@ public class InteresCompuesto {
     public static void main(String[] args){
         Scanner teclado = new Scanner(System.in);
         
-        System.out.print("Introduzca el Capital Inicial: ");
+        System.out.print("Introduzca el importe del Capital Inicial: ");
         double capitalInicial = Double.parseDouble(teclado.nextLine());
         
         System.out.print("Introduzca el tiempo (en años): ");
-        double tiempo = Double.parseDouble(teclado.nextLine());
+        int tiempo = Integer.parseInt(teclado.nextLine());
         
         System.out.print("Introduzca la tasa de interés (en decimales): ");
         double interes = Double.parseDouble(teclado.nextLine());
